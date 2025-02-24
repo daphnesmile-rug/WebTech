@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en-us"> 
     <head> 
         <title>Assignment 1.2</title> 
@@ -25,12 +26,13 @@
                 text-align: left;
                 background-color: #ffffff;
             }
-            /* th{
-                border: 1px solid black;
-            } */
             .category {
                 font-weight: bold;
                 text-align: center;
+            }
+            figcaption {
+                text-align: center;
+                font-style: italic;
             }
         </style>
     </head> 
@@ -41,8 +43,8 @@
             <h1>OLAC overview</h1>
             <table style="width: 25%;">
                 <tr>
-                    <td><b>Steven Bird</b></td>
-                    <td><b>Gary Simons</b></td>
+                    <th>Steven Bird</th>
+                    <th>Gary Simons</th>
                 </tr>
                 <tr>
                     <td>University of Pennsylvania</td>
@@ -89,15 +91,15 @@
             <p>Finally, the user seeks advice on the appropriateness of this software for the task at hand, and clicks on an ADVICE hyperlink. Some 150 hits are displayed, with such titles as: ``Analyzing data with Shoebox,'' ``Identifying the primary audience dictionary,'' ``Data-entry templates in Shoebox,'' ``Organizing a dictionary by roots vs lexemes.'' As before, the user navigates to a full metadata record for a particular choice, and this provides the entry point to the resource.</p>
             <p>Standing back from this particular interaction, we can observe that the individuals who use and create language resources are looking for three things: data, tools, and advice. Figure 2 diagrams this situation.</p>
             <figure>
-                <img src="figure2.gif" alt="OLAC Metadata Structure" title="Three things individuals who use and create language resources are looking for" style="display: block; margin: 0 auto;" border="1">
-                <caption>Figure 2: Ideally the user has access as needed</caption>
+                <img src="Figures/figure2.gif" alt="OLAC Metadata Structure" title="Three things individuals who use and create language resources are looking for" style="display: block; margin: 0 auto;" border="1">
+                <figcaption>Figure 2: Ideally the user has access as needed</figcaption>
             </figure>
 
             <p>By <strong>DATA</strong> we mean any information that documents or describes a language, such as a published monograph, a computer data file, or even a shoebox full of hand-written index cards. The information could range in content from unanalyzed sound recordings to fully transcribed and annotated texts to a complete descriptive grammar. By <strong>TOOLS</strong> we mean computational resources that facilitate creating, viewing, querying, or otherwise using language data. Tools include not just software programs, but also the digital resources that the programs depend on, such as fonts, stylesheets, and document type definitions. By <strong>ADVICE</strong> we mean any information about what data sources are reliable, what tools are appropriate in a given situation, what practices to follow when creating new data, and so forth.</p>
             <p>Unfortunately, today's user does not have ready access to the data, tools, and advice that are needed. Figure 3 offers a diagrammatic view of the reality. Some archives (e.g. Archive 1) do have a site on the Internet which the user is able to find, so the resources of that archive are accessible. Other archives (e.g. Archive 2) are on the Internet, so the user could access them in theory, but the user has no idea they exist so they are not accessible in practice. Still other archives (e.g. Archive 3) are not even on the Internet. And there are potentially hundreds of archives (e.g. Archive n) that the user needs to know about. Tools and advice are out there as well, but are at many different sites.</p>
             <figure>
-                <img src="figure3.gif" alt="OLAC Metadata Structure" title="Diagrammatic view of the reality" style="display: block; margin: 0 auto;" border="1">
-                <caption>Figure 3: In reality the user can't always get there from here</caption>
+                <img src="Figures/figure3.gif" alt="OLAC Metadata Structure" title="Diagrammatic view of the reality" style="display: block; margin: 0 auto;" border="1">
+                <figcaption>Figure 3: In reality the user can't always get there from here</figcaption>
             </figure>
             
             <p>There are many other problems inherent in the current situation. For instance, the user may not be able to find all the existing data about the language of interest because different sites have called it by different names. The user may not be able to use an accessible data file for lack of being able to match it with the right tools. The user may locate advice that seems relevant but have no basis for judging its merits.</p>
@@ -111,8 +113,8 @@
 
             <p>Figure 4 gives a diagram showing the ``Seven Pillars of Open Language Archiving'' and how they relate. In a graphical form it summarizes how a community would function to bridge the gap between the individual user and all the data, tools, and advice that are out there on the Internet. Note that STANDARDS here concern the computational infrastructure of the community. Particular formats for linguistic content (such as the TEI), would be considered tools with associated advice, and fall outside of the scope of the standards we are talking about here.</p>
             <figure>
-                <img src="figure4.gif" alt="OLAC Metadata Structure" title="Diagram showing the Seven Pillars of Open Language Archiving and how they relate." style="display: block; margin: 0 auto;" border="1">
-                <caption>Figure 4: Bridging the gap through community infrastructure</caption>
+                <img src="Figures/figure4.gif" alt="OLAC Metadata Structure" title="Diagram showing the Seven Pillars of Open Language Archiving and how they relate." style="display: block; margin: 0 auto;" border="1">
+                <figcaption>Figure 4: Bridging the gap through community infrastructure</figcaption>
             </figure>
 
             <h1>3. Background of the Open Language Archives Community</h1>
@@ -216,15 +218,15 @@
             <p>The Open Archives initiative (OAI) was launched in October 1999 to provide a common framework across electronic preprint archives [<a href="http://www.openarchives.org">http://www.openarchives.org</a>], and it has since been broadened to include digital repositories of scholarly materials regardless of their type.</p>
             <p>In the OAI infrastructure, each participating archive implements a repository, a network accessible server offering public access to archive holdings. The primary object in an OAI-conformant repository is called an item, having a unique identifier and being associated with one or more metadata records. Each metadata record describes an archive holding, which is any kind of primary resource such as a document, data, software, a recording, a physical artifact, a digital surrogate, and so forth. Each metadata record will usually contain a reference to an entry point for the holding, such as a URL or a physical location, as shown in Figure 6.</p>
             <figure>
-                <img src="figure6.gif" alt="OLAC Metadata Structure" title="Figure 6: The Relationship Between an OAI Repository and an Archive" style="display: block; margin: 0 auto;" border="1">
-                <caption>Figure 6: The Relationship Between an OAI Repository and an Archive</caption>
+                <img src="Figures/figure6.gif" alt="OLAC Metadata Structure" title="Figure 6: The Relationship Between an OAI Repository and an Archive" style="display: block; margin: 0 auto;" border="1">
+                <figcaption>Figure 6: The Relationship Between an OAI Repository and an Archive</figcaption>
             </figure>
 
             <p>To implement the OAI infrastructure, a participating archive must comply with two standards: the <i>OAI shared metadata set </i>(Dublin Core), which facilitates interoperability across all communities participating in the OAI, and the <i> OAI metadata harvesting protocol</i>, which allows software services to query a repository using HTTP requests.</p>
             <p>OAI archives are called ``data providers,'' though they are strictly just metadata providers. Typically, data providers will also have a submission procedure, together with a long-term storage system, and a mechanism permitting users to obtain materials from the archive. An OAI ``service provider'' is a third party that provides end-user services (such as search functions over union catalogs) based on metadata harvested from one or more OAI data providers. Figure 7 illustrates a single service provider accessing three data providers. End-users only interact with service providers.</p>
             <figure>
-                <img src="figure7.gif" alt="OLAC Metadata Structure" title="Single service provider accessing three data providers" style="display: block; margin: 0 auto;" border="1">
-                <caption>Figure 7: A Service Provider Accessing Multiple Data Providers</caption>
+                <img src="Figures/figure7.gif" alt="OLAC Metadata Structure" title="Single service provider accessing three data providers" style="display: block; margin: 0 auto;" border="1">
+                <figcaption>Figure 7: A Service Provider Accessing Multiple Data Providers</figcaption>
             </figure>
             
             <h2>3.4. Applying the OAI to Language Resources</h2>
