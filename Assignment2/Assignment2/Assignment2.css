@@ -1,0 +1,99 @@
+/* styling for the pages */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #000046;
+    margin: 0;
+    padding: 20px;
+}
+
+/* highlighting in pink*/
+.highlight {
+    color: #ff00b7;
+    font-weight: bold;
+}
+
+/* styling for links */
+a {
+    color: #e60000;
+    text-decoration: underline;
+}
+a:hover, a:visited { 
+    color: #ae00ff;
+    text-decoration: none;
+}
+
+/* styling for tables */
+table {
+    border: #000000 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 12px;
+    caption-side: bottom;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+/* style for specific tables */
+.table-author {
+    width: 25%;
+    border: none;
+}
+.category {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* aligning text right */
+.alligning-right {
+    float: right;
+    font-size: 11px;
+    color: #666;
+}
+
+/* style for images*/
+.image {
+    display: block;
+    margin: 0 auto;
+    border: #000000 1px solid;
+    margin: 0 auto;
+}
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+/* styling of language page */
+.info {
+    border: 1px solid #ffffff;
+    margin-bottom: 5px;
+}
+.info table {
+    border-collapse: collapse;
+    line-height: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.info td {
+    border: 1px solid #ffffff;
+}
+.info td:first-child {
+    width: 25%;
+    font-style: italic;
+    text-align: right;
+    background-color: #e2e0e0;
+}
+.info td:nth-child(2) {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+h1, h4 {
+    margin-bottom: 0px;
+}
+h2 {
+    margin-top: 0px;
+    font-weight: normal;
+}

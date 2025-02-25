@@ -1,0 +1,15 @@
+Daphne Meekers
+S5611989
+
+Motivation Styling Choices
+
+For Assignment 2, I have enhanced the styling of my previous index, OLAC and language pages by implementing a CSS file (Assignment2.css) and incorporating JavaScript for interactive elements. The enhancements improve the readability of the files and make a clean and organized design.
+
+The text style is improved by setting a standard sans-serif font (Arial) and adjusting the font size, all the pages are conformed and better readability is ensured. The color scheme creates a balance between clarity and aesthetic appeal, using a deep blue (#000046) for general text and a pink highlight (#ff00b7) for emphasis.
+The table styling was enhanced to improve data presentation. I added padding for better spacing, and ensured consistent alignment. For specific tables, such as the author table, I modified the width and removed unnecessary borders to create a cleaner layout.
+Hyperlinks are styled with distinct colors for visited and hover states, so that they are easy to use and the states are to be distinguished. Images are centered and bordered to provide a more structured look, and I included a figcaption for context, which is neatly aligned with the image. The integration of the JavaScript allows users to interact with images by enlarging them when clicked, with a reset button to return them to their original size (GeeksforGeeks, 2024). This enhancement makes the pages user-friendly.
+
+Overall, these changes significantly improve the presentation and usability of the pages, making them more accessible and visually appealing while being structured and in a professional format.
+
+
+Javascript source: GeeksforGeeks. (2024, 15 november). How to Make the Images Bigger when Clicked? GeeksforGeeks. https://www.geeksforgeeks.org/how-to-make-the-images-bigger-when-clicked/
